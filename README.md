@@ -1,63 +1,73 @@
-# oss-audit--24BEY10109
-#Student Details
-Name: Rihanshu kumar Gupta ( 24BEY10109)
-Course: Open Source Software
-Project Title: Open Source Audit
-Chosen Software
-Git (Distributed Version Control System)
+# 🔍 Open Source Audit Project
 
-Project Description
-This project focuses on analyzing Git as an open-source software. It includes a detailed study of its origin, license, ecosystem, and comparison with proprietary systems. The project also involves practical implementation using Linux shell scripting to demonstrate understanding of open-source tools and system operations.
+## 📌 Student Details
+- **Name:** Rihanshu Kumar Gupta  
+- **Roll No:** 24BEY10109  
+- **Course:** Open Source Software  
 
-The objective of this project is to understand both theoretical and practical aspects of open-source software and its importance in modern computing.
+---
 
-Scripts Overview
-Script 1: System Identity Report
-This script displays system information such as kernel version, username, system uptime, date, and Linux distribution.
+## 🧠 Project Title
+**Open Source Audit – Study of Git**
 
-Script 2: FOSS Package Inspector
-This script checks whether Git is installed on the system and displays details like version and description.
+---
 
-Script 3: Disk and Permission Auditor
-This script analyzes system directories and displays disk usage and permissions.
+## 📖 Project Description
+This project focuses on analyzing **Git**, a distributed version control system widely used in modern software development.
 
-Script 4: Log File Analyzer
-This script counts occurrences of a keyword in a log file and displays matching lines.
+It includes:
+- Study of Git’s origin and evolution  
+- Understanding its open-source license  
+- Exploring its ecosystem  
+- Comparing it with proprietary systems  
+- Practical implementation using Linux shell scripting  
 
-Script 5: Open Source Manifesto Generator
-This script generates a personalized manifesto based on user input.
+The goal is to bridge **theoretical knowledge** with **hands-on experience** in open-source tools.
 
-How to Run the Scripts
-Step 1: Make Scripts Executable
-chmod +x script1.sh
-chmod +x script2.sh
-chmod +x script3.sh
-chmod +x script4.sh
-chmod +x script5.sh
+---
 
-Step 2: Run Scripts
-./script1.sh
-./script2.sh
-./script3.sh
+## 🎯 Objectives
+- Understand open-source software concepts  
+- Analyze Git as a real-world example  
+- Gain practical experience using Linux shell scripting  
+- Learn system-level operations and automation  
+
+---
+
+## 🛠️ Scripts Overview
+
+### 🧾 Script 1: System Identity Report
+Displays:
+- Kernel version  
+- Username  
+- System uptime  
+- Current date  
+- Linux distribution  
+
+---
+
+### 📦 Script 2: FOSS Package Inspector
+- Checks if Git is installed  
+- Displays:
+  - Version  
+  - Description  
+
+---
+
+### 💾 Script 3: Disk and Permission Auditor
+- Analyzes system directories  
+- Shows:
+  - Disk usage  
+  - File permissions  
+
+---
+
+### 📊 Script 4: Log File Analyzer
+- Searches for a keyword in a log file  
+- Displays:
+  - Number of occurrences  
+  - Matching lines  
+
+**Example:**
+```bash
 ./script4.sh /var/log/syslog error
-./script5.sh
-
-Requirements:
-Ubuntu (WSL) or Linux Environment
-Bash Shell
-Git installed
-
-Output:
-Scripts display output directly in the terminal
-Script 5 generates a text file containing the manifesto
-
-Learning Outcomes:
-Understanding of open-source software concepts
-Hands-on experience with Linux commands
-Knowledge of shell scripting (loops, conditions, variables)
-Understanding of Git and its ecosystem
-
-Conclusion:
-This project provided a comprehensive understanding of open-source software through both theoretical
-analysis and practical implementation. Git was studied in detail, and shell scripting skills were developed.
-The project highlights the importance of open-source tools in modern software development.
